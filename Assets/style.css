@@ -10,9 +10,7 @@ html {
     font-family: Special+Elite;
 }
 
-h1,
-h2,
-h3 {
+h1,h2, h3 {
     font-family: exo;
 }
 
@@ -25,9 +23,7 @@ header nav {
     top: 0;
     right: 0;
     padding: 20 px;
-
 }
-
 
 header nav li {
     display: inline-block;
@@ -46,7 +42,6 @@ header img:nth-child(2) {
     display: inline-block;
     width: 100%;
     margin-top: 65px;
-
 }
 
 header img:nth-child(3) {
@@ -58,12 +53,18 @@ header img:nth-child(3) {
 header div {
     text-align: left;
     margin-left: 100px;
-    width: 50%;
+    width: 40%;
+    padding-bottom: 50px;
 }
 
+/* section 1 */
 
 #section1 {
     background-image: url(./Assets/img/cake_icon.png);
+    }
+
+#section1 img {
+    width: 100vw;
 }
 
 #section1 h1 {
@@ -119,4 +120,55 @@ header div {
     border-width: 1px;
     width: 20%;
     margin: 2px auto
+    }
+
+    /* section2 */
+
+    #section2 img:nth-child(1) {
+    width: 100vw;
+    padding-top: 50px;
+    }
+
+    #section2 div:nth-child(2){
+        text-align: left;
+        vertical-align: middle;
+        display: inline-block;
+        width: 10%;
+        float: left;
+        margin-left: 40%;
+     }
+
+    #section2 div:nth-child(3) img {
+        width: 10%;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 5%;
+        margin-top: 8%;
+        
+    }
+
+/* section3 */
+
+#section3 img {
+    width: 100vw;
+    padding-top: 50px;
+}
+
+#section3 div:nth-child(2) img {
+    width: 10vw;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40%;
+    margin-top: 8%;
+    background-color: brown;
+}
+#section3 div:nth-child(3) {
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    width: 10%;
+    margin-left: 5%;
+    background-color: blueviolet;
+    
+   
 }
